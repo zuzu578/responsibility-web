@@ -1,0 +1,154 @@
+*{
+  padding:0;
+  margin:0;
+}
+.nav-container{
+  display: flex;
+  background: red;
+
+}
+.nav-items{
+  padding:10px;
+  color:white;
+  font-weight: bold;
+}
+.contents1{
+  display: flex;
+}
+.text-box{
+  padding:40px;
+  
+}
+p{
+  padding-top:20px;
+  color:red;
+
+}
+.cs-box{
+  margin-left:20px;
+}
+h4{
+  background:pink;
+  width:400px;
+  padding:10px;
+  color:white;
+}
+
+.div1{
+  display: flex;
+}
+.div2{
+  display: flex;
+ 
+}
+.contents2{
+  display: flex;
+}
+@media screen and (max-width:900px){
+   .contents2{
+     display: flex;
+     flex-direction:column;
+   }
+   .contents1{
+     display: flex;
+     flex-direction: column;
+   }
+   .nav-container{
+     display: none;
+   }
+}
+@media screen and (max-width:600px){
+   .nav-container{
+     display: none;
+   }
+    .contents2{
+     display: flex;
+     flex-direction:column;
+   }
+   .contents1{
+     display: flex;
+     flex-direction: column;
+   }
+   .div1{
+     display: flex;
+     flex-direction: column;
+     
+
+   }
+   .div2{
+          display: flex;
+     flex-direction: column;
+   }
+   .shop-image{
+     display: none;
+   }
+}
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <nav class="nav-container">
+     <div class="nav-items">꽃다발  </div>
+      <div class="nav-items">꽃바구니  </div>
+       <div class="nav-items">화환  </div>
+        <div class="nav-items">화분  </div>
+   </nav>
+   <div class="contents1">
+     <div class="shop-image">
+     <img src="shop.png">
+     </div>
+     <div class="text-box">
+     <h3>향기나는 꽃집입니다.</h3>
+     <p>향기나는 꽃집은 식물과 함께하는 건강한 삶, 꽃으로 전하는 사랑이</br>야기,그리고 꽃으로 힐링하는 치유의 삶의 메신저가 되겠습니다.</p>
+     </div>
+   
+
+   </div>
+   <div class="contents2">
+     <div class="div1">
+  <div class="cs-box">
+   <h4>고객 상담 안내</h4>
+   <ul>
+    <li><strong>전화</strong>041-551-333</li>
+     <li><strong>팩스</strong>041-551-333<  </li>
+      <li><strong>운영시간</strong>오전9시~오후6시  </li>
+   </ul>
+  </div>
+  <div class="cs-box2">
+  <div class="Csflower">
+   <img src="bg1.png"width="200">
+  </div>
+
+  </div>
+     </div>
+     <div class="div2">
+       <div class="flower2"> 
+       <img src="bg2.png">
+
+       </div>
+       <div class="flower3">
+       <img src="bg3.png"width="200">
+       </div>
+     
+
+     </div>
+
+
+   </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
