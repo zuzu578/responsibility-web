@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+
+    <header class="header-container">
+      <div class="logo-items">
+        <div class="logo">
+          B
+
+        </div>
+
+      </div>
+      <div class="nav-container">
+        <div class="nav-items">Home </div>
+         <div class="nav-items">Documentation </div>
+          <div class="nav-items">Examples  </div>
+           <div class="nav-items">Icons  </div>
+            <div class="nav-items">Themes  </div>
+             <div class="nav-items">Expo  </div>
+              <div class="nav-items"> Blog </div>
+
+
+      </div>
+      <div class="download-button">
+        <div class="download">
+          Download
+
+        </div>
+
+
+      </div>
+
+
+    </header>
+    
+    <div class="main1">
+    <div class="main-contents">
+      <div class="logo-image">
+        <img src="https://i.stack.imgur.com/dMXbE.png">
+
+      </div>
+    </div>
+      <div class="title-boot">
+        <h1>Build fast, responsive</br> sites with Bootstrap</h1>
+         <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+         <div class="Bootstrap-button">
+       <div class="get-started">
+       <div class="start">
+         Get started
+          
+
+       </div>
+      
+       </div>
+      
+     </div>
+      </div>
+     
+     
+
+    </div>
+    
+    
+    <div class="installation-icon">
+      < >
+
+    </div>
+    <div class="container2">
+    
+    <div class="installation">
+      <h1>Installation  </h1>
+      <p class="lead">Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.</p>
+      <p class="lead-2">Package managed installs don’t include documentation or our full build scripts. You can also use our npm template repo to quickly generate a Bootstrap project via npm.</p>
+
+      <div class="installation-button">
+        <div class="installabutton">
+          Read installation docs
+
+        </div>
+
+
+      </div>
+    </div>
+      <div class="installation-box">
+        <span class="inst"># Via npm  </span>
+        <p class="ins">npm install bootstrap     </p>
+        <span class="inst1"> # Via gem</span>
+         <p class="ins1">gem install bootstrap -v 4.5.2</p>
+      </div>
+
+
+    </div>
+    <div class="container3">
+    <div class="bootstrapcdn">
+      <h1>BootstrapCDN</h1>
+      <p class="lead">When you only need to include Bootstrap’s compiled CSS or JS, you can use BootstrapCDN.</p>
+      <p class="lead-2">See it in action with our simple starter template, or browse the examples to jumpstart your next project.</p>
+
+      <div class="installation-button">
+        <div class="installabutton">
+         Explore the docs 
+
+        </div>
+
+
+      </div>
+    </div>
+      <div class="installation-box">
+        <span class="inst"># Via npm  </span>
+        <p class="ins">npm install bootstrap     </p>
+        <span class="inst1"> # Via gem</span>
+         <p class="ins1">gem install bootstrap -v 4.5.2</p>
+      </div>
+
+
+    </div>
+    
+
+     <div class="container4">
+     <div class="bootstrapcdn">
+      <h1>Bootstrap Icons</h1>
+      <p class="lead">For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.</p>
+      <p class="lead-2">Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any project. They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and can be styled with CSS.
+
+</p>
+
+      <div class="installation-button">
+        <div class="installabutton">
+         Get Bootstrap Icons
+
+        </div>
+
+
+      </div>
+     </div>
+      <div class="bootstrap-image">
+        <img src="https://getbootstrap.com/docs/4.5/assets/img/bootstrap-icons@2x.png"width="497" height="309">
+       
+      </div>
+
+
+    </div>
+
+    <div class="container5">
+    <div class="bootstrapcdn">
+      <h1>Official Themes</h1>
+      <p class="lead">Take Bootstrap to the next level with premium themes from the official Bootstrap Themes marketplace.</p>
+      <p class="lead-2">Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build tools.
+
+
+</p>
+
+      <div class="installation-button">
+        <div class="installabutton">
+        Browse themes
+
+        </div>
+
+
+      </div>
+    </div>
+      <div class="theme-image">
+        <img src="https://getbootstrap.com/docs/4.5/assets/img/bootstrap-themes@2x.png"width="497">
+       
+      </div>
+
+
+    </div>
+
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>

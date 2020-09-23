@@ -1,0 +1,163 @@
+
+
+
+
+
+
+
+
+
+*{
+  padding:0;
+  margin:0;
+
+}
+.installation-icon{
+  margin-top:70px;
+  margin-bottom:50px;
+}
+.wrapper{
+ 
+}
+.logo-items{
+  border:1px solid white;
+  width:36px;
+  height: 36px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+  border-radius: 10px;
+  line-height: 36px;
+  text-align: center;
+}
+.nav-items{
+  padding:10px;
+  color:white;
+}
+.download{
+  padding:10px;
+  color:white;
+}
+
+.header-container{
+  background:RGB(121, 83, 178);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:10px;
+  
+}
+.nav-container{
+  display: flex;
+}
+.logo-image img{
+  max-width:100%;
+}
+.main1{
+  text-align: center;
+}
+.get-started{
+  border:1px solid RGB(121, 83, 178);
+  width:425px;
+  height:57px ;
+  text-align: center;
+  line-height: 57px;
+  background:RGB(121, 83, 178);
+  border-radius: 7px;
+  color:white;
+  font-weight: bold;
+   position: relative;
+   top:20px;
+  margin:0 auto;
+  
+}
+.installation-icon{
+  border:1px solid RGB(70, 175, 88);
+  background:RGB(70, 175, 88);
+  width:56px;
+  height: 56px;
+  border-radius: 10px;
+  color:white;
+  text-align: center;
+  line-height: 56px;
+  font-weight: bold;
+}
+.lead{
+  font-weight: bold;
+  padding-bottom:20px;
+
+}
+.lead-2{
+ padding-bottom:30px;
+}
+.installation-button{
+  border:1px solid RGB(4, 123, 253);
+  width:223px;
+  height: 48px;
+  border-radius: 5px;
+  text-align: center;
+  color: RGB(4, 123, 253);
+  line-height: 48px;
+  font-weight: bold;
+  margin-bottom:30px;
+}
+.installation-box{
+  border:1px solid RGB(247, 249, 251);
+  background:RGB(247, 249, 251);
+  width:415px;
+  height: 137px;
+  border-radius: 10px;
+  margin-bottom:50px;
+  
+}
+.inst{
+  padding:10px;
+  
+
+}
+.ins{
+padding:10px;
+}
+.ins1{
+  padding:10px;
+}
+.inst1{
+  padding:10px;
+}
+.bootstrap-image{
+  max-width: 100%;
+ 
+}
+.theme-image{
+ max-width: 100%;
+ height:auto ;
+}
+
+
+@media screen and (min-width:768px){
+  .header-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .main1{
+    display: flex;
+    margin-top:100px;
+  }
+  .get-started{
+    width:169px;
+  }
+  .container2{
+    display: flex;
+  }
+  .container3{
+    display: flex;
+  }
+   .container4{
+     display: flex;
+   }
+   .container5{
+     display: flex;
+   }
+  
+}
+
