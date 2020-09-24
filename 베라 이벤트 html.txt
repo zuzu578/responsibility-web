@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header-items">
+      <div class="left-icons">
+        <div class="l-icons"><img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_facebook.png"> </div>
+        <div class="l-icons"><img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_twitter.png">   </div>
+        <div class="l-icons"><img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_blog.png">   </div>
+        <div class="l-icons"><img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_instgram.png">   </div>
+        <div class="l-icons"><img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_youtube.png">   </div>
+
+
+      </div>
+      <div class="center-logo-items">
+        <img src="https://www.baskinrobbins.co.kr/assets/images/common/logo_baskinrobbins.png">
+
+
+      </div>
+      <div class="right-items">
+        <div class="right-menu">고객센터 </div>
+         <div class="right-menu">영양정보  </div>
+          <div class="right-menu">CONTACT US </div>
+             <div class="right-menu"> <img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_search.png"> </div>
+
+
+
+      </div>
+
+
+    </header>
+    <nav class="nav-container">
+      <div class="left-nav"> 
+        <div class="left1">LOGIN</div>
+        <div class="left">JOIN  </div>
+
+
+      </div>
+      <div class="right-nav">
+        <div class="right1">FLAVOR OF THE MONTH </div>
+           <div class="right">MENU  </div>
+              <div class="right">EVENT </div>
+                 <div class="right">SOTORE </div>
+                    <div class="right">ABOUT  </div>
+
+      </div>
+
+
+
+    </nav>
+    <div class="event-title-area">
+      <img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_title_1.png">
+      <img src="https://www.baskinrobbins.co.kr/assets/images/event/h_title.png">
+      <img src="https://www.baskinrobbins.co.kr/assets/images/common/icon_title_2.png">
+      <p>배스킨라빈스와 함께 하는 다양한 혜택과 이벤트</p>
+
+    
+
+
+    </div>
+    
+    <div class="event-container">
+     
+        <div class="event-items"> ALL  </div>
+        <div class="event-items"> STORE EVENT  </div>
+        <div class="event-items"> ONLINE EVENT  </div>
+        <div class="event-items"> HAPPY POINT EVENT  </div>
+
+
+
+      
+     
+
+    </div>
+    <div class="event-container-box">
+      
+      <div class="event-1">
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1623209597.png">
+          <div class="title">추석선물 세트</div>
+          <div class="date">2020-09-18~2020-09-24</div>
+        </div>
+     
+
+        
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1620526793.png">
+          <div class="title">[켈로그X배스킨라빈스] 켈로그 스페셜 세트</br> 25,900원</div>
+          <div class="date">2020-09-18~소진 시까지</div>
+        </div>
+    
+
+      
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1646729930.png">
+          <div class="title">쿼터(15,500원) 이상 구매시 켈로그 컵시리</br>얼 2종 1,000원</div>
+          <div class="date">2020-09-04~소진 시까지</div>
+        </div>
+    
+
+    
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1631155002.png">
+          <div class="title">9월 이달의맛 인스타그램에 사진을 올려주세</br>요!</div>
+          <div class="date">2020-09-01~2020-09-26</div>
+        </div>
+      </div>
+   
+
+
+
+
+    
+
+      <div class="event-2">
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1625555266.png">
+          <div class="title">디저트 5개 구매 시, 아이스 모찌 1개 무료 증<br/>정!</div>
+          <div class="date">2020-07-01~2020-09-30</div>
+        </div>
+
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1654563500.png">
+          <div class="title">단 하루의 혜택, 31day 사이즈업!</div>
+          <div class="date">상시진행</div>
+        </div>
+
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1622875536.png">
+          <div class="title">제휴 할인 카드 혜택 안내</div>
+          <div class="date">상시진행</div>
+        </div>
+
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1626057556.png">
+          <div class="title">KT 멤버십 파인트 30% OFF</div>
+          <div class="date">2020-01-01~2020-12-31</div>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="event-3">
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1604916894.png">
+          <div class="title">매월 25일, 50% M포인트 사용</div>
+          <div class="date">상시진행</div>
+        </div>
+
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1570702843.png">
+          <div class="title">2018 한글날 기념 무료 글꼴 공개!배스킨라 빈스체</div>
+          <div class="date">상시진행</div>
+        </div>
+
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/image/1578277305.png">
+          <div class="title">1회용 컵 사용 줄이기 안내</div>
+          <div class="date">상시진행</div>
+        </div>
+
+        <div class="event">
+          <img src="https://www.baskinrobbins.co.kr/upload/event/images/banner_delivery.png">
+          <div class="title">해피오더 딜리버리로 간편하게 주문하세요!</div>
+          <div class="date">상시진행</div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
