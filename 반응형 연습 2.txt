@@ -1,0 +1,610 @@
+*{
+  padding:0;
+  margin:0;
+}
+.banner img{
+  max-width: 100%;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+ padding:20px;
+ align-items: center;
+}
+.menu-items{
+  display: flex;
+}
+.right-items{
+   display: flex;
+}
+.logo-items{
+  display: flex;
+}
+.m-items{
+  padding:20px;
+  font-weight: bold;
+  font-size:13px;
+}
+.right-items{
+  margin-right:100px;
+  padding:10px;
+  align-items: center;
+}
+.challange{
+  border:1px solid #000000;
+  width:110px;
+  height:32px ;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 32px;
+  color:white;
+  background: black;
+  font-size:13px;
+  font-weight: bold;
+}
+.search-items{
+  padding-left:20px;
+}
+.banner-container{
+  display: flex;
+  justify-content: center;
+}
+
+.ranking-container{
+  width:1004px;
+  margin:0 auto;
+  margin-top:40px;
+}
+.ranking-items-container{
+  width:1004px;
+  margin:0 auto;
+  margin-top:40px;
+  display: flex;
+  justify-content: space-between;
+
+} 
+.ranking-items,.ranking-items1{
+  border:1px solid #f0f1f5;
+  background:#f0f1f5;
+  color:black;
+  padding:16px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+.ranking-items1{
+  background:#eb0126;
+  color:white;
+
+}
+.mana-contents{
+  width:1004px;
+  margin:0 auto;
+  display: flex;
+  margin-top:100px;
+}
+.title-box{
+  display: flex;
+  width:316px;
+  justify-content: space-between;
+}
+.manga-infor{
+  display: flex;
+  align-items: center;
+}
+.rank-i{
+  display: flex;
+  width:1004px;
+  justify-content: space-between;
+}
+.ranking{
+  padding-bottom:40px;
+  font-weight: bold;
+  font-size:20px;
+}
+.rank-items{
+  width:76px;
+  border:1px solid #f0f1f5;
+  border-radius: 30px;
+  text-align: center;
+  background:#f0f1f5;
+  padding:5px;
+}
+.rank-i :first-child{
+  background:#eb0126;
+  color:white;
+}
+.live-title{
+font-weight: bold;
+}
+.live2{
+  margin-left:50px;
+
+}
+.live3{
+  margin-left:30px;
+}
+.new1{
+ display: flex;
+}
+.new-contents-items{
+  width:1004px;
+  margin:0 auto;
+}
+.new2{
+  display: flex;
+}
+.new-contents-items-container{
+  display: flex;
+  width:1004px;
+  margin:0 auto;
+ 
+}
+.New-mana{
+ width:1004px;
+ margin:0 auto;
+}
+.new-mana1{
+  display: flex;
+}
+.new-mana2{
+  display: flex;
+}
+.mana-flex{
+  display: flex;
+}
+.new-mana-title{
+  font-size:30px;
+  font-weight: bold;
+
+}
+.new-contents-items{
+  margin-top:100px;
+}
+.New-mana{
+  margin-top:100px;
+}
+
+
+
+@media screen and (max-width:960px) {
+  .challange{
+    display: none;
+  }
+  .m-items{
+    
+    width:80px;
+    padding-top:70px;
+  }
+}
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="logo-items">
+       <img src="https://lh3.googleusercontent.com/Bc8lEroMZCEgyXJNRwbU9ADSAxZWFatOF_WDRfNY9tWTQEjqLjN3sRRJ_sTE2dys19Q"width="64"height="64">
+      
+      
+        <div class="m-items">연재 </div>
+        <div class="m-items">랭킹 </div>
+        <div class="m-items">무료</div>
+        <div class="m-items">SALE</div>
+        <div class="m-items">단행본</div>
+        <div class="m-items">완결</div>
+
+
+
+      </div>
+
+      <div class="right-items">
+        <div class="challange"> 
+        <div class="chall">
+          레진챌린지
+        </div>
+        </div>
+        <div class="search-items">
+        <img src="https://cdn.lezhin.com/files/assets/img/icon-search.svg">
+        </div>
+
+
+      </div>
+
+
+    </nav>
+     <div class="banner-container">
+      <div class="banner">
+       <img src="https://cdn.lezhin.com/v2/inventory_items/4838904602099712/media/upperBanner.webp?updated=1600585461000&width=1180" >
+
+      </div>
+       </div>
+      <div class="ranking-container">
+        
+         <div class="ranking">
+           랭킹
+         
+        </div>
+        <div class="rank-i">
+        <div class="rank-items"> 전체  </div>
+         <div class="rank-items"> 로맨스  </div>
+          <div class="rank-items"> BL  </div>
+           <div class="rank-items"> 드라마  </div>
+            <div class="rank-items">  판타지 </div>
+             <div class="rank-items"> 개그  </div>
+              <div class="rank-items"> 액션  </div>
+               <div class="rank-items">학원  </div>
+                <div class="rank-items">미스터리   </div>
+                 <div class="rank-items">일상   </div>
+                  <div class="rank-items">백합   </div>
+        </div>
+
+
+      </div>
+
+ 
+    
+     <div class="mana-contents">
+       <div class="live">
+         <div class="title-box">
+         <div class="live-title">
+          실시간
+         </div>
+         <div class="live-sub-title">
+           더보기
+
+         </div>
+         </div>
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+       </div>
+         
+
+
+
+         <div class="live2">
+         <div class="title-box">
+         <div class="live-title">
+         신작
+         </div>
+         <div class="live-sub-title">
+           더보기
+
+         </div>
+         </div>
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+       </div>
+
+
+
+
+       <div class="live3">
+         <div class="title-box">
+         <div class="live-title">
+         이벤트
+         </div>
+         <div class="live-sub-title">
+           더보기
+
+         </div>
+         </div>
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+
+         <div class="manga-infor">
+           <div class="manga-image">
+           <img src="https://cdn.lezhin.com/v2/comics/260/images/square.webp?updated=1574129488473&width=84"width="84" height="84">
+           </div>
+           <div class="manga-title">
+            <div class="mana">  
+             레바툰  
+
+            </div>
+            <div class="sub-title">
+             레바/일상224화무료
+            </div>
+           </div>
+           
+
+
+         </div>
+
+       </div>
+
+
+
+
+
+     </div>
+
+     <div class="new-contents-items">
+       <h1>신작연재</h1>
+       <div class="new-contents-items-container">
+         <div class="new1">
+           <div class="mana-c1">
+             <div class="img">
+             <img src="https://cdn.lezhin.com/v2/comics/4636603184644096/images/tall.webp?updated=1600520469726&width=554"width="239">
+             </div>
+             <div class="mana-c1title">
+              
+              비 마이 게스트[개정판]
+             </div>
+
+ 
+           </div>
+           <div class="mana-c1">
+             <div class="img">
+             <img src="https://cdn.lezhin.com/v2/comics/4636603184644096/images/tall.webp?updated=1600520469726&width=554"width="239">
+             </div>
+             <div class="mana-c1title">
+              
+              비 마이 게스트[개정판]
+             </div>
+
+ 
+           </div>
+         </div>
+
+
+         <div class="new2">
+           <div class="mana-c1">
+             <div class="img">
+             <img src="https://cdn.lezhin.com/v2/comics/4636603184644096/images/tall.webp?updated=1600520469726&width=554"width="239">
+             </div>
+             <div class="mana-c1title">
+              
+              비 마이 게스트[개정판]
+             </div>
+
+ 
+           </div>
+
+           <div class="mana-c1">
+             <div class="img">
+             <img src="https://cdn.lezhin.com/v2/comics/4636603184644096/images/tall.webp?updated=1600520469726&width=554"width="239">
+             </div>
+             <div class="mana-c1title">
+              
+              비 마이 게스트[개정판]
+             </div>
+
+ 
+           </div>
+          
+ 
+         </div>
+
+
+
+       </div>
+
+
+
+
+     </div>
+
+     <div class="New-mana">
+       <div class="new-mana-title">
+        신규 만화
+       </div>
+       <div class="mana-flex">
+       <div class="new-mana1">
+         <div class="mama">
+         <div class="image-mana">
+          <img src="https://cdn.lezhin.com/v2/comics/6184935242661888/images/tall.webp?updated=1600919442511&width=354"width="170">
+         </div>
+         <div class="image-mana-title">
+           첫사랑좀비
+         </div>
+         </div>
+
+          <div class="mama">
+         <div class="image-mana">
+          <img src="https://cdn.lezhin.com/v2/comics/6184935242661888/images/tall.webp?updated=1600919442511&width=354"width="170">
+         </div>
+         <div class="image-mana-title">
+           첫사랑좀비
+         </div>
+         </div>
+
+
+          <div class="mama">
+         <div class="image-mana">
+          <img src="https://cdn.lezhin.com/v2/comics/6184935242661888/images/tall.webp?updated=1600919442511&width=354"width="170">
+         </div>
+         <div class="image-mana-title">
+           첫사랑좀비
+         </div>
+         </div>
+
+       </div>
+
+       <div class="new-mana2">
+          <div class="mama">
+         <div class="image-mana">
+          <img src="https://cdn.lezhin.com/v2/comics/6184935242661888/images/tall.webp?updated=1600919442511&width=354"width="170">
+         </div>
+         <div class="image-mana-title">
+           첫사랑좀비
+         </div>
+         </div>
+
+          <div class="mama">
+         <div class="image-mana">
+          <img src="https://cdn.lezhin.com/v2/comics/6184935242661888/images/tall.webp?updated=1600919442511&width=354"width="170">
+         </div>
+         <div class="image-mana-title">
+           첫사랑좀비
+         </div>
+         </div>
+
+          <div class="mama">
+         <div class="image-mana">
+          <img src="https://cdn.lezhin.com/v2/comics/6184935242661888/images/tall.webp?updated=1600919442511&width=354"width="170">
+         </div>
+         <div class="image-mana-title">
+           첫사랑좀비
+         </div>
+         </div>
+
+
+       </div>
+     </div>
+
+
+
+
+
+
+     </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
