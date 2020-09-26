@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+    <div class="logo">메일  </div>
+    <div class="right-menu">
+     <div class="right">다음메일앱  </div>
+     <div class="right">공식블로그  </div>
+     <div class="right">회원가입  </div>
+     <div class="login-items">
+     <div class="right1"> 로그인 </div>
+     </div>
+ 
+    </div>
+    </header>
+    <div class="center-text-box">
+      <div class="center">
+       <h1>내 하루의 시작, 다음메일 </h1>
+      </div>
+      <div class="login-buttons">
+      <div class="log">
+        로그인
+
+      </div>
+ 
+      </div>
+
+
+    </div>
+
+    <div class="main-1">
+      <div class="main-1-background"> 
+      <img src="https://mail1.daumcdn.net/mail_static/mint/img/logout/main_slide3_20170111.jpg"width="1113" height="872">
+
+      </div>
+      
+
+
+    </div>
+    <div class="main2">
+      <div class="container2">
+      <div class="text-box2">
+       <img src="https://mail1.daumcdn.net/mail_static/mint/img/logout/p320/write_feature.png">
+
+      </div>
+
+    
+        <div class="image-1">
+        <img src="https://mail1.daumcdn.net/mail_static/mint/img/logout/bg_write_20160929.png">
+
+        
+
+        </div>
+        
+        
+        
+        
+        
+
+      </div>
+
+
+    </div>
+
+    <div class="main3">
+    <div class="text-box3">
+    <img src="https://mail1.daumcdn.net/mail_static/mint/img/logout/p320/skin_feature_20160929.png">
+
+
+    </div>
+
+
+    </div>
+
+    <div class="main4">
+    <div class="image-box4">
+    <img src="https://mail1.daumcdn.net/mail_static/mint/img/logout/feature_31_20170111.png">
+
+    </div>
+
+    </div>
+
+    <div class="main5">
+     <div class="main5-textbox">
+    <h1>외부 메일도 한눈에</h1>
+    <p>흩어져있는 모든메일을 한눈에 볼수있어요</p>
+
+     </div>
+     <div class="main5-image">
+     <img src="https://mail1.daumcdn.net/mail_static/mint/img/logout/circle_external.png">
+
+
+     </div>
+ 
+    </div>
+
+    <div class="main6">
+      <div class="features">
+        <div class="features-title">
+          <div class="tit">
+          <h1>모바일에서도 Daum메일</h1>
+          </div>
+          <div class="sub-tit">
+
+        
+          <p>  Google play                 </p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
