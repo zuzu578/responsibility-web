@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-text">
+       <p>We’re open. Order online and choose curbside or in-store pickup. </p>
+
+      </div>
+    </header>
+
+    <nav class="nav-container1">
+      <div class="nav-center1"> 
+       <div class="center1"><strong> Personal<strong>  </div>
+       <div class="center1"><strong> Business </strong>  </div>
+      </div>
+      <div class="nav-right1">  
+        <div class="right1">Stores  </div>
+        <div class="right1">Español </div>
+        <div class="right1">Sign In  </div>
+
+      </div>
+
+
+
+
+    </nav>
+
+    <nav class="nav-container2">
+      <div class="logo-items">
+      <img src="https://www.verizon.com/dam/vzwcom/gnav/global/verizonLogo.svg"width="196">
+
+      </div>
+      <div class="center-menu">
+      <div class="c-menu"><strong>Shop   </strong>  </div>
+      <div class="c-menu"><strong>Why Verizon   </strong>  </div>
+      <div class="c-menu"><strong>Support   </strong>  </div>
+      </div>
+
+
+    </nav>
+
+    <div class="contents-container1">
+      <div class="text-center">
+        <h1 class="title1">
+         Share iPhone 11.
+        </h1>
+        <p class="sub-title1">
+          Get two for just $5/mo. When you switch two lines</br>
+          with select Unlimited plans. 64GB only. 
+
+        </p>
+        <div class="button-shop">
+         <div class="shop">
+          Shop
+         </div>
+  
+        </div>
+        </div>
+
+          <div class="iphone11-image-box">
+           <div class="iphone-background">
+           <img src="https://ss7.vzw.com/is/image/VerizonWireless/uhp-apple-iphone-11-hero-static-d-0921?&scl=2">
+           </div>
+ 
+ 
+        </div>
+
+
+      </div>
+  
+    </div>
+    <div class="contents-container2">
+    <div class="products-infor">
+    <div class="products-infor-nav">
+      <div class="products-nav">Mobile  </div>
+      <div class="products-nav">Home Internet   </div>
+     
+
+
+    </div>
+    <div class="product-infor-box">
+     <div class="product-title">
+      <h2>Galaxy S20+5G.</h2>
+      <h2>Just $15/mo.</h2>
+     </div>
+     <div class="product-sub">
+     <p>Buy another and get $1000
+     off.With select Unlimited
+     plans.128GB only. Online</br>
+     exclusive.
+     </p>
+ 
+     </div>
+     <div class="shop-button">
+     <div class="shop">
+      Shop
+     </div>
+     </div>
+
+    </div>
+
+
+
+    </div>
+    <div class="p-image-box">
+    <div class="product-image1">
+      <div class="p1">
+      <img src="https://ss7.vzw.com/is/image/VerizonWireless/uhp-prospect-promo-1-phone-d-0921?bgc=f6f6f6&scl=2">
+      </div>
+
+
+    </div>
+
+
+    <div class="product-image2">
+      <div class="p1">
+      <img src="https://ss7.vzw.com/is/image/VerizonWireless/uhp-phone-iphone-se-red-d-0924?bgc=f6f6f6&scl=2">
+      </div>
+
+
+    </div>
+    </div>
+
+
+
+    </div>
+
+    <div class="contents-container3">
+     <div class="video-box">
+      <video class="background-video lozad u-showForMediumUp" autoplay="" playsinline="" muted="" data-poster="https://ss7.vzw.com/is/image/VerizonWireless/uhp-unlimited-static-d-0918?&amp;scl=1" preload="auto" data-src="https://ss7.vzw.com/is/content/VerizonWireless/2020/unified/uhp-unlimited-d-0918.mp4" poster="https://ss7.vzw.com/is/image/VerizonWireless/uhp-unlimited-static-d-0918?&amp;scl=1" src="https://ss7.vzw.com/is/content/VerizonWireless/2020/unified/uhp-unlimited-d-0918.mp4" data-loaded="true">
+            
+          </video>
+
+     </div>
+
+
+    </div>
+    <div class="contents-container4">
+      <div class="top">
+        <div class="title-top">
+          Top Device Brands 
+           </div>
+        <div class="brands">
+          <p class="brand-p">Samsung  </p>
+            <p class="brand-p">Apple  </p>
+              <p class="brand-p">LG  </p>
+                <p class="brand-p">Motorola  </p>
+                  <p class="brand-p">Google  </p>
+                    <p class="brand-p">Amazon  </p>
+
+
+        </div>
+        <div class="Accessory">
+        Top Accessory Brands
+
+        </div>
+        <div class="brands">
+          <p class="brand-p">Otterbox  </p>
+           <p class="brand-p">ZAGG  </p>
+            <p class="brand-p">Beats  </p>
+             <p class="brand-p">Mophie  </p>
+              <p class="brand-p"> JBL </p>
+               <p class="brand-p"> Fitbit </p>
+                <p class="brand-p">Gear 4  </p>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="Support">
+        <div class="support-title">
+          Support
+        </div>
+        <div class="support-items"> 
+         <div class="sup-i">Support overview   </div>
+         <div class="sup-i"> Report a security vulnerabilty  </div>
+         <div class="sup-i">Mobile customer agreement   </div>
+         <div class="sup-i">Avoid potential hearing loss   </div>
+         <div class="sup-i">Important wireless issues   </div>
+         <div class="sup-i">Announcements   </div>
+         <div class="sup-i">Brochures   </div>
+         <div class="sup-i">My Verizon Mobile terms & conditions   </div>
+         <div class="sup-i">Product terms   </div>
+         <div class="sup-i">Radio frequency emissions
+   </div>
+         <div class="sup-i">Return policy   </div>
+         <div class="sup-i">Website use   </div>
+         <div class="sup-i"> Contact us  </div>
+ 
+        </div>
+
+
+      </div>
+
+
+      <div class="About-Verizon">
+        <div class="about-title">
+        About Verizon
+
+        </div>
+        <div class="about-items">
+        <div class="about-i">About us   </div>
+        <div class="about-i"> Careers  </div>
+        <div class="about-i"> News  </div>
+        <div class="about-i">About our ads   </div>
+        <div class="about-i">Responsibility   </div>
+        <div class="about-i">Verizon Innovation Program   </div>
+        <div class="about-i">Consumer education   </div>
+        <div class="about-i">Advertise with Us   </div>
+        <div class="about-i">Lifeline/Link-Up   </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="Most-Popular">
+        <div class="popular-title">
+          Most Popular
+        </div>
+        <div class="Popular-items"> 
+          <div class="p-i"> iPhone 11 </div>
+          <div class="p-i">Samsung  </div>
+          <div class="p-i"> Disney </div>
+          <div class="p-i">Apple Watch Series 6  </div>
+          <div class="p-i"> Fios </div>
+
+
+        </div>
+
+        <div class="follow-us">
+         <div class="follow-us-title">
+           Follow Us
+
+         </div>
+
+         <div class="sns-items">
+         <div class="sns">   Twitter      </div>
+         <div class="sns">    Facebook     </div>
+         <div class="sns">      YouTube   </div>
+         <div class="sns">      Fios Twitter   </div>
+         <div class="sns">   Fios Facebook      </div>
+         </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
