@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-left">
+        <div class="header-logo-items">
+         <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/logo-basic-24b18257ac4ef693c02233bf21e9cb7ecbf43ebd8d5b40c24d99e14094a44c81.svg">
+        </div>
+        <div class="search-box">
+         <div class="input-box">
+          <input  type="text" placeholder="동네 이름,물품명 등을 검색해보세요!">
+         </div>
+  
+        </div>
+
+      </div>
+
+      <div class="header-right">
+        <div class="icons">
+          <div class="icons-items">
+            <div class="icons-image">
+              <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/apple-store-3a664174124650d63cae365bc55586fc5ff27b822b1b97788fc4af77d73d00c8.svg">
+
+            </div>
+            <div class="icons-text">
+             App Store
+            </div>
+           
+          </div>
+
+        </div>
+
+        <div class="icons">
+           <div class="icons-items">
+             <div class="icons-image">
+             <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/google-play-c9ad0fc573cd01e2b982df5de6709a3d8d7cec8d9b58a5c08db7da0b92a32a75.svg">
+             </div>
+             <div class="icons-text">
+              Google Play 
+             </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+    </header>
+    <div class="main-container">
+
+   <div class="main1">
+     <div class="text-box1">
+      <h1 class="home1"> 당신 근처의</br>당근마켓        </h1>
+      <p class="home-sub">중고 거래부터 동네 정보까지, 이웃과 함께 해요</br>
+      가깝고 따뜻한 당신의 근처를 만들어요.
+    </p>
+     </div>
+
+     <div class="image-box1">
+       <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-top-4eb6b8642f61c5c012136597a25a7b72c705d6c6479a7270f3fb23726fddf585.png" >
+
+
+     </div>
+
+  
+   </div>
+
+   <div class="main2">
+     <div class="image-box2">
+     <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-1-39ac203e8922f615aa3843337871cb654b81269e872494128bf08236157c5f6a.png">
+ 
+     </div>
+     <div class="text-box2">
+       <div class="title">
+       <h1 class="market"> 우리 동네</br>중고 직거래 마켓   </h1>
+       </div>
+
+       <div class="sub-title">
+
+        <p class="market-title">동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.</p>
+       </div>
+        <div class="button-box">
+         <div class="button-items1">
+          <div class="b1">
+           인기매물 보기
+          </div>
+         
+         </div>
+         <div class="button-items2">
+           <div class="b2">
+            믿을 수 있는 중고거래
+           </div>  
+         
+         </div>
+ 
+        </div>
+     </div>
+
+
+
+   </div>
+
+   <div class="main3">
+     <div class="text-box3">
+      <div class="text-title">
+      <h1>이웃과 함께 하는</br>
+      동네 생활 </h1>
+      <div class="sub-title">
+        <div class="sub">우리 동네의 다양한 이야기를 이웃과 함께 나누어요.  </div>
+
+
+      </div>
+          
+      </div>
+       <div class="text-icon-box">
+       <div class="icon-1">
+         <div class="icon-image-1">
+          <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-1-9226479b836cdc960291ffda91ace46c90a632f6cc868aa8983b3624e662a924.svg">
+
+         </div>
+         <div class="icon-text-box">
+           <div class="icon-title">
+             우리동네질문
+
+           </div>
+
+           <div class="icon-sub-title">
+            궁금한게 있을땐 이웃에게 물어보세요
+
+           </div>
+
+         </div>
+
+       </div>
+
+
+       <div class="icon-1">
+         <div class="icon-image-1">
+          <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-2-208bb88cad31e335b40bc8ac5b7684dcf8a36d77ac50770a497a9c967a3bfc4f.svg">
+
+         </div>
+         <div class="icon-text-box">
+           <div class="icon-title">
+             동네분실센터
+
+           </div>
+
+           <div class="icon-sub-title">
+            무언가를 잃어버렸을 때,
+함께 찾을 수 있어요
+
+           </div>
+
+         </div>
+
+       </div>
+
+
+       <div class="icon-1">
+         <div class="icon-image-1">
+          <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-3-0a14d64c6101a7271655747d8401b9f71506578f8a4c0640608074e977bbc7c0.svg">
+
+         </div>
+         <div class="icon-text-box">
+           <div class="icon-title">
+            동네모임
+           </div>
+
+           <div class="icon-sub-title">
+           관심사가 비슷한 이웃과
+온오프라인으로 만나요.
+           </div>
+
+         </div>
+
+       </div>
+
+       </div>
+
+
+     </div>
+
+     <div class="main3-image-box">
+     <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-2-f286322ab98acedf914a05bf77e84c67dcb897c8ccb543e66f6afea9d366d06d.png">
+
+
+     </div>
+
+   </div>
+   <div class="main4">
+     <div class="image-box4">
+       <img src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-3-0c8b631ac2294ac5a3b3e7a3a5580c3e68a3303ad2aded1e84aa57a2e1442786.png">
+
+     </div>
+     <div class="text-box4">
+       <div class="title-4">
+         
+        내 근처에서 찾는</br>
+        우리 동네 가게
+
+
+       </div>
+
+      <div class="sub-title4">
+       우리 동네 가게를 찾고 있나요?</br>
+동네 주민이 남긴 진짜 후기를 함께 확인해보세요!
+      </div>
+      <div class="dang-button">
+       <div class="d-button">
+        당근마켓 동네가게 찾기
+
+       </div>
+
+
+      </div>
+
+
+
+     </div>
+
+   </div>
+     <div class="main5">
+       <div class="title-box">
+
+      <h1> 중고거래 인기매물</h1>
+       </div>
+
+      <div class="flext-1">
+       <div class="old-product1">
+          <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/D71B5E62F7FE28A9E31CD96A28D2349CD20AAED82E4CF0A484A70A52D7B1BBB0.jpg?q=82&s=300x300&t=crop"width="212" height="212">
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               위니아 제습기
+              </div>
+              <div class="old-price">
+                  20,000원
+              </div>
+              <div class="old-area">
+                 부산 수영구 광안동
+              </div>
+
+
+            </div>
+
+          
+          </div> 
+           
+            <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/98dc38238ab4e3386a4558487d18c3a9cf372ec0619c48b16bc9220f1a34c642.webp?q=82&s=300x300&t=crop"width="212" height="212">
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               
+스팸선물세트0호
+              </div>
+              <div class="old-price">
+                  5000원
+              </div>
+              <div class="old-area">
+                 대구 수성구 지산동
+              </div>
+
+
+            </div>
+
+          
+          </div>
+
+           <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/95CD6AFBAACBCAAE1078FBAA3C15B21D756F7216D73F952302D0E9033B245FE9.jpg?q=82&s=300x300&t=crop"width="212" height="212">
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               캠핑용품 팝니다
+              </div>
+              <div class="old-price">
+                  999999원
+              </div>
+              <div class="old-area">
+                 경북 포항시
+              </div>
+
+
+            </div>
+
+          
+          </div>
+
+           <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/CB89E478C5EBEDCDCC4F31E42483BD8D48A27F7E9FDD892CD431A1D660D447F1.jpg?q=82&s=300x300&t=crop"width="212" height="212">
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               철재 선반
+              </div>
+              <div class="old-price">
+                  10,000원
+              </div>
+              <div class="old-area">
+                 울산 중구
+              </div>
+
+
+            </div>
+
+          
+          </div>
+       </div>
+          <div class="old-product2">
+           <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/d74eabc64903f0abb88261adf5d5abd79dc3df15238730fdd62d6c7eb211ca9f.webp?q=82&s=300x300&t=crop"width="212" height="212">
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               자전거 데려가세요~
+              </div>
+              <div class="old-price">
+                  200,000원
+              </div>
+              <div class="old-area">
+                 부산 수영구 광안동
+              </div>
+
+
+            </div>
+
+          
+          </div>
+
+           <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/0a688bb62f0c316864647876fc4f5c7cab581733c725a5dba1bcf81dc1e2cb6b.webp?q=82&s=300x300&t=crop"width="212" height="212">
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               스팸
+              </div>
+              <div class="old-price">
+                  20,00원
+              </div>
+              <div class="old-area">
+                 부산 수영구 광안동
+              </div>
+
+
+            </div>
+
+          
+          </div>
+
+           <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/F8A0C420ED1E4C0BF90AF716371627FA3E21EE2EAADF5494BB01320BF64C4C49.jpg?q=82&s=300x300&t=crop"width="212" height="212>
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               캠핑용품
+              </div>
+              <div class="old-price">
+                  20,000원
+              </div>
+              <div class="old-area">
+                 부산 수영구 광안동
+              </div>
+
+
+            </div>
+
+          
+          </div>
+
+           <div class="old-items">
+            <div class="old-image">
+              <img src="https://dnvefa72aowie.cloudfront.net/origin/article/202009/6e98e95339cef3e17ba653963bec0dc43fb2b6eb4c1580296e84fdcedc64b17e.webp?q=82&s=300x300&t=crop"width="212" height="212>
+            </div>
+            <div class="old-text-box">
+              <div class="old-title">
+               캠핑의자 
+              </div>
+              <div class="old-price">
+                  20,000원
+              </div>
+              <div class="old-area">
+                 부산 수영구 광안동
+              </div>
+
+
+            </div>
+
+          
+          </div>
+          </div>
+      </div>
+     
+
+
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
