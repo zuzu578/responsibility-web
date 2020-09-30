@@ -1,0 +1,201 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.items-header{
+ display: flex;
+align-items: center;
+justify-content: flex-end;
+margin-right:200px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:12px;
+
+}
+.header-items{
+  margin-right:40px;
+}
+.header{
+  background: black;
+  color:white;
+  width:1345px;
+  
+}
+.nav-items{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    text-align: center;
+   
+    color:white;
+
+}
+.nav-cotainer{
+  font-size:12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background:#252525;
+  width:1345px;
+}
+.main1-image{
+  width:1345px;
+}
+.text-box1{
+  position: absolute;
+  top:20%;
+  left:20%;
+}
+.text-box1-title{
+  font-size:20px;
+}
+.text-box1-sub-title p{
+ 
+    font-family: "Noto Sans";
+    font-size: 18px;
+    line-height: 26px;
+    padding-top:10px;
+    padding-bottom:20px;
+} 
+
+
+.main1{
+  position: relative;
+  background: black;
+  width:1345px;
+  color:white;
+}
+.main1-image{
+  text-align: center;
+}
+.buy-button{
+  background:#34aa2f;
+  border-top:3px solid #96d4a6;
+  border-right:3px solid #96d792;
+  border-left:3px solid #237721;
+  border-bottom:3px solid #376a38;
+  width:271px;
+  height: 72px;
+      font-size: 19.2px!important;
+   font-weight: bold;
+   text-align: center;
+   line-height:65px;
+}
+.main-background img{
+  width:1345px;
+  height: 1000px;
+ 
+}
+.main2{
+  position: relative;
+}
+.infor-background img{
+  width:1345px;
+
+}
+.minecraft-game{
+  position: absolute;
+ width:1345px;
+
+ top:20%;
+  background:white;
+  padding:50px;
+}
+.games{
+  display: flex;
+ 
+}
+.game{
+  text-align: center;
+}
+.games2{
+  display: flex;
+ 
+}
+
+.minecraft-game{
+ 
+}
+.game-flex{
+  display: flex;
+ 
+}
+.game h1{
+  padding-bottom:40px;
+}
+.game-image{
+  text-align: center;
+}
+.game-title h3{
+  color:#568555;
+  padding-top:10px;
+  padding-bottom:20px;
+  text-align: center;
+
+
+}
+.game-sub-title{
+  text-align: center;
+  font-size:14px;
+}
+.main3{
+  width:1345px;
+  background: url("https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/feature-content/bg-wool-light.png");
+  padding-top:130px;
+  
+}
+
+.mine-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:100px;
+
+}
+.live-text{
+  padding-right:20px;
+  padding-left:40px;
+}
+
+.live-title h2{
+padding-bottom:20px;
+font-size:28px;
+}
+
+.live-sub p{
+  font-size:15px;
+}
+@media screen and (max-width:800px){
+  .nav-items{
+    display: none;
+  }
+  .text-box1{
+    text-align: center;
+    margin:0 auto;
+    width:900px;
+  }
+  .buy-button{
+    margin:0 auto;
+  }
+  .mine-container{
+    flex-direction: column-reverse;
+  }
+  .live img{
+    width:1000px;
+  }
+  .live-title h2{
+    font-size:70px;
+    text-align: center;
+  }
+  .live-sub p{
+     text-align: center;
+    font-size:50px;
+     padding-bottom:30px;
+  }
+  
+}
