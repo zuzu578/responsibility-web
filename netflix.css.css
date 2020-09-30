@@ -1,0 +1,210 @@
+*{
+  padding:0;
+  margin:0;
+
+}
+body{
+ background:url("https://assets.nflxext.com/ffe/siteui/vlv3/43375087-3875-4574-86c4-4c14c3473535/d8dc4ab0-f0b4-4020-b481-d92487dc10ad/KR-ko-20200921-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo{
+  padding-left:30px;
+  padding-top:10px;
+}
+
+.login-button{
+  margin-right:50px;
+  width:75px;
+  height: 35px;
+  border:1px solid RGB(226, 8, 21);
+  background:RGB(226, 8, 21);
+  color:white;
+  border-radius:3px;
+  text-align: center;
+  line-height: 35px;
+}
+.wrapper{
+  position: relative;
+}
+
+.header-container{
+
+}
+
+.text-box-1{
+  color:white;
+
+  text-align: center;
+}
+
+.title-box{
+  font-size:30px;
+}
+
+.sub-title-1{
+  font-size:26px;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
+.sub-title-2{
+  font-size:23px;
+
+}
+input[type="email"]{
+  width:500px;
+  height:60px ;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.days-button{
+border:1px solid #df0713;
+background:#df0713;
+width:143px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+border-radius: 2px;
+margin:0 auto;
+}
+
+.infor-new p{
+  font-size:16px;
+  padding-top:20px;
+  padding-bottom:40px;
+}
+.text-title{
+  font-size:30px;
+  padding-bottom:20px;
+  
+}
+
+.main2{
+  background:black;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.video2{
+  position: absolute;
+  left:52%;
+  bottom:23%;
+}
+.text-title2{
+  font-size:20px;
+}
+.main3{
+  background:black;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.text-title3{
+  font-size:30px;
+  padding-bottom:20px;
+
+}
+.main4{
+  background:black;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+}
+
+.text-title4{
+  font-size:25px;
+  padding-bottom:20px;
+}
+.image-4-2{
+  position: absolute;
+  left:50%;
+  bottom:40%;
+}
+
+.main5{
+  background:black;
+  color:white;
+  
+}
+
+.title-5{
+  font-size:30px;
+  padding-bottom:30px;
+}
+.title-5 h1{
+  text-align: center;
+}
+.question-box5{
+  padding:30px;
+
+}
+.question{
+  border:1px solid #303030;
+  background:#303030;
+  padding-top:40px;
+  padding-bottom:40px;
+  
+    margin-bottom: 40px;
+    font-weight: 400;
+    position: relative;
+    width:710px;
+    padding:20px;
+    margin:0 auto;
+}
+  
+@media screen and (max-width:1100px){
+  .main1{
+    width:1260px;
+  }
+  .main2{
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto;
+     width:1260px;
+  }
+  .text-title{
+    padding-top:50px;
+  }
+  .main3{
+    flex-direction: column-reverse;
+    text-align: center;
+    margin:0 auto;
+     width:1260px;
+  }
+  .text-box4{
+    padding-top:50px;
+  }
+  .main4{
+    padding-top:100px;
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto;
+     width:1260px;
+  }
+  .main5{
+    margin:0 auto;
+    width:1260px;
+
+  }
+  .video2{
+   display: none;
+  }
+  .image-4-2{
+    display: none;
+  }
+  .header-container{
+    display: none;
+  }
+}
