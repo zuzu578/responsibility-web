@@ -1,0 +1,151 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.logo-image{
+  padding-left:60px;
+}
+.logo-image img{
+
+width: 120px;
+    height: 32px;
+    top: 5px;
+}
+.header{
+  display: flex;
+  background:RGB(26, 37, 46);
+  color:white;
+  justify-content: space-between;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+.lang-box{
+  padding-right:30px;
+}
+.login-items{
+  padding-right:50px;
+}
+.right-items{
+  display: flex;
+  align-items: center;
+}
+.lang-box{
+  display: flex;
+  align-items: center;
+}
+.image-box1 img{
+width:100%;
+}
+.main-1{
+  display: flex;
+  background:black;
+  color:white;
+}
+
+.title1{
+  font-size:25px;
+}
+.text-box1{
+  padding:40px;
+}
+
+.sub-title1{
+  padding-top:20px;
+  font-size:21px;
+  padding-bottom:50px;
+}
+
+.free-button{
+  border:1px solid #1278af;
+  background:#1278af;
+  width:280px;
+  height:54px ;
+  text-align: center;
+  line-height: 54px;
+  border-radius: 2px;
+  margin:0 auto;
+}
+.p-infor{
+  padding-top:30px;
+  text-align: center;
+}
+.main-2{
+  display: flex;
+  
+}
+.main2-title{
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.main2-items{
+  padding:20px;
+}
+.main2-subtitle p{
+  text-align: center;
+  font-size:21px;
+
+}
+.sub-title1{
+  font-size:21px;
+  text-align: center;
+}
+.title1{
+  text-align: center;
+}
+.main2-image img{
+  width:100%;
+}
+.footer{
+  background:RGB(33, 36, 35);
+}
+.footer-logo-items{
+  text-align: center;
+}
+a{
+  color:RGB(16, 121, 171);
+  text-decoration: none;
+
+}
+.footer-infor-items{
+  display: flex;
+  justify-content: center;
+}
+.infor{
+  color:RGB(155, 155, 155);
+}
+
+
+@media screen and (max-width:875px){
+  .main-1{
+    flex-direction: column;
+  }
+  .title1{
+    text-align: center;
+  }
+  .sub-title1{
+    text-align: center;
+  }
+  .p-infor{
+    text-align: center;
+  }
+  .free-button{
+    width:300px;
+    margin:0 auto;
+  }
+  .right-items{
+    display: none;
+  }
+  .main-2{
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+  }
+   .title1 h1{
+    text-align: center;
+   }
+  
+  
+}
