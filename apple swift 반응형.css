@@ -1,0 +1,243 @@
+
+*{
+  padding:0;
+  margin:0;
+}
+.header-container{
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background:#f3f3f3;
+  font-size:14px;
+  width:1340px;
+}
+.menu{
+  display: flex;
+}
+.swift-container{
+  display: flex;
+   justify-content: space-between;
+  margin: 0 auto;
+    max-width:980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+    
+
+}
+
+
+.swift-wrap{
+  border-bottom:1px solid #d2d2d2;
+   box-sizing: content-box;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+   padding-top:20px;
+
+
+}
+.swift-container{
+
+}
+   .swift{
+     color: #333333;
+     font-size:24px;
+     font-weight: bold;
+   }
+.menu{
+   color: #333333;
+    align-items: center;
+
+    line-height: 22px;
+    white-space: nowrap;
+
+}
+
+.swift-menu{
+  padding-right:20px;
+  font-size:12px;
+}
+.text-box1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.swift-information{
+  text-align: center;
+}
+.contents1{
+  padding-top:60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:#fafafa;
+  width:1340px;
+}
+.h1-box h1{
+  font-size:48px;
+}
+.h2-box h2{
+  font-size:32px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.swift-information{
+
+font-size:21px;
+line-height: 1.52381;
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+  padding-bottom:50px;
+}
+.mac-book1{
+  position: relative;
+
+
+}
+.sub-title1{
+  font-size:14px;
+}
+.macbook-image-box img{
+  position: absolute;
+  bottom:12%;
+  left:12%;
+
+}
+.code-sub p{
+  font-size:12px;
+}
+.contents2{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top:100px;
+  width:1340px;
+
+}
+
+.left-box{
+  font-size:14px;
+  padding:2.8px;
+  font-weight: bold;
+}
+.sub-title1{
+  line-height: 1.61765;
+  font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size:15px;
+  padding-bottom:10px;
+}
+.swift-wrap{
+
+}
+.title1{
+  font-size:20px;
+  padding-bottom:20px;
+
+}
+.code1{
+  border:1px solid #d6d6d6;
+  padding: 20px 30px 20px;
+  padding-top:60px;
+ background: #f9fbfa;
+  padding-bottom:60px;
+}
+.code-sub p{
+  padding-top:20px;
+  padding-bottom:50px;
+
+}
+.title3 h2{
+  font-size:30px;
+  padding-bottom:30px;
+}
+.title3-sub{
+  font-size:16px;
+  padding-bottom:20px;
+  line-height: 30px;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.contents3-image img{
+
+width:100%;
+}
+
+.sub-p{
+  padding-top:30px;
+  padding-bottom:100px;
+} 
+
+@media screen and (max-width:1024px){
+  .swift-wrap{
+    display: none;
+  }
+   
+}
+@media screen and (max-width:600px){
+  .header{
+  display: none;
+  }
+  .h1-box h1{
+    font-size:100px;
+  }
+  .h2-box h2{
+    padding-bottom:40px;
+    font-size:60px;
+    text-align: center;
+  }
+  .swift-information p{
+    font-size:50px;
+  }
+   .swift-image img{
+     width:200px;
+   }
+   *{
+     font-size:100px;
+   }
+  .left-text-box{
+    display: none;
+  }
+  .title3-sub p{
+    line-height: 200px;
+   
+  }
+  .title1{
+    text-align: center;
+  }
+  .sub-title1 p{
+    font-size:40px;
+    text-align: center;
+  }
+  .code-sub p{
+    font-size:30px;
+    padding-top:60px;
+    padding-bottom:60px;
+
+  }
+  .title3{
+    text-align: center;
+  }
+  .title3 h2{
+    font-size:100px;
+    padding-top:60px;
+    padding-bottom:60px;
+  }
+  .title3-sub p{
+    font-size:40px;
+    line-height: normal;
+    
+  }
+  .sub-p p{
+    font-size:40px;
+    line-height: normal;
+  }
+} 
+
+
