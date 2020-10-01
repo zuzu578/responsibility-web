@@ -1,0 +1,310 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.nav-container{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: DunkinSansDisplay,DunkinSansBook,"Montserrat",sans-serif;
+  font-size:16px;
+  font-weight: bold;
+  padding-top:80px;
+  align-items: center;
+
+
+}
+.nav-items-menu,.nav-items-delivery,.nav-items-ddperks{
+  padding-bottom:30px;
+}
+.nav-items-logo{
+  padding-bottom:30px;
+}
+.nav-items{
+  padding-bottom:30px;
+}
+.corna-text{
+  padding:20px;
+  background:#db0a80;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+.corna-text p{
+  font-size:13px;
+  padding-bottom:20px;
+}
+.corna-text h4{
+  font-size:20px;
+  padding-bottom:20px;
+}
+
+.main1{
+ background: url("https://www.dunkindonuts.com/content/dam/dd/img/rebranding/homepage/Bring%20on%20the%20Perks%201440x225.png");
+ background-repeat: no-repeat;
+ width:100%;
+    margin: 0 auto;
+    display: block;
+    transition: all 250ms ease-in-out;
+}
+.dunk-title-box{
+  text-align: center;
+}
+.dunk-title-box h1{
+  font-size:65px;
+
+}
+
+.bring{
+  color:#f56300;
+  font-weight: bold;
+
+}
+.corna-text{
+  
+}
+
+.perkst{
+  color:#dc0980;
+
+}
+.sub-title p{
+  font-size:24px;
+  font-weight: bold;
+}
+.d-1-image {
+  text-align: center;
+}
+.dunk-box{
+display: flex;
+
+margin-top:100px;
+}
+
+.d-1title{
+  text-align: center;
+}
+.d-1subtitle p{
+  text-align: center;
+}
+
+.button-box1{
+  display: flex;
+  justify-content: center;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.sign-up{
+  border:1px solid #db0a80;
+  background:#db0a80;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 30px;
+  width:200px;
+  height:45px ;
+}
+
+.learn{
+  border-radius: 30px;
+  border:2px solid #ba1d76;
+  color:#ba1d76;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+width:200px;
+height: 45px;
+margin-left:10px;
+}
+.d-1-image img{
+  width:40%;
+}
+
+@media screen and (max-width:800px){
+  .nav-items{
+    display: none;
+  }
+
+  .corna-text{
+    display: none;
+  }
+  .dunk-box{
+    flex-direction: column;
+  }
+  .button-box1{
+    flex-direction: column;
+    align-items: center;
+  }
+  .learn{
+   margin-right:10px;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   
+    <nav class="nav-container">
+     <div class="nav-items-menu">MENU  </div>
+      <div class="nav-items">LOCATION  </div>
+       <div class="nav-items-delivery">DELIVERY  </div>
+        <div class="nav-items-logo">
+          <img src="https://www.dunkindonuts.com/content/dam/dd/img/brand/dd/dd-logo.svg"width="150">
+            </div>
+         <div class="nav-items-ddperks">DD PERKS </div>
+          <div class="nav-items">DD CARD  </div>
+           <div class="nav-items">SHOP  </div>
+
+    </nav>
+    <div class="corna-text">
+    <h4>Our Response to Coronavirus (COVID-19)</h4>
+    <p>As we continue to closely monitor the global impact of Coronavirus (COVID-19), we are taking steps to help keep everyone who interacts with Dunkin’ safe during these challenging times.</p>
+    <h4>Keeping You Informed on Our Response to COVID-19</h4>
+
+    </div>
+
+    <div class="main-contents">
+    <div class="main1">
+     <div class="dunk-title-box">
+    <h1 class="bring">BRING ON      </h1>
+     <h1 class="perkst"> THE PERKS     </h1>
+     <div class="sub-title">
+     <p> DD Perks rewards members on every Dunkin' run.</p>
+     </div>
+ 
+     </div>
+     <div class="dunk-box">
+       <div class="d-1">
+         <div class="d-1-image">
+          <img src="https://www.dunkindonuts.com/content/dam/dd/img/rebranding/homepage/Dunkin_Cup_mob.svg">
+         </div>
+         <div class="d-text-box">
+         <div class="d-1title">
+          <h3>Earn On Every Run</h3>
+         </div>
+         <div class="d-1subtitle">
+           <p>$1 = 5 points. Every 200 points earns you a free beverage. Plus, get exclusive bonus-point offers.</p>
+
+         </div>
+         </div>
+       </div>
+
+        <div class="d-1">
+         <div class="d-1-image">
+          <img src="https://www.dunkindonuts.com/content/dam/dd/img/rebranding/homepage/Dunkin_Runner_mob.svg">
+         </div>
+         <div class="d-text-box">
+         <div class="d-1title">
+          <h3>Earn On Every Run</h3>
+         </div>
+         <div class="d-1subtitle">
+           <p>$1 = 5 points. Every 200 points earns you a free beverage. Plus, get exclusive bonus-point offers.</p>
+
+         </div>
+         </div>
+
+
+       </div>
+         
+
+         <div class="d-1">
+         <div class="d-1-image">
+          <img src="https://www.dunkindonuts.com/content/dam/dd/img/rebranding/homepage/Donut_Icon_mob.svg">
+         </div>
+         <div class="d-text-box">
+         <div class="d-1title">
+          <h3>Earn On Every Run</h3>
+         </div>
+         <div class="d-1subtitle">
+           <p>$1 = 5 points. Every 200 points earns you a free beverage. Plus, get exclusive bonus-point offers.</p>
+
+         </div>
+         </div>
+
+
+       </div>
+
+
+
+     </div> 
+     </div>
+
+     <div class="button-box1">
+      <div class="sign-up">
+        <div class="sign">
+          SIGN UP
+
+        </div>
+
+      </div>
+
+      <div class="learn">
+        <div class="learn-more">
+          LEARN MORE
+
+
+        </div>
+
+
+      </div>
+
+     </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
