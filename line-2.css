@@ -1,0 +1,298 @@
+*{
+  padding:0;
+  margin:0;
+
+}
+.banner-items img{
+ width: 100%;
+}
+  
+.header-wrap{
+  padding-top:10px;
+
+}
+
+select{
+  
+  position: relative;
+    display: block;
+    margin-top: 21px;
+    padding: 0 10px 0 9px;
+    width: 129px;
+    height: 22px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    text-align: left;
+    
+    font-size: 12px;
+    color: #444;
+    cursor: pointer;
+    
+}
+.menu{
+  padding-left:20px;
+}
+.logo-items{
+  padding-left:130px;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.menu-items{
+  display: flex;
+  
+}
+.right-items{
+  margin-bottom:25px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+.image-box img{
+  width:100%;
+}
+  .main-2{
+    display: flex;
+    margin-top:100px;
+    justify-content: space-evenly;
+  }
+
+  .text-title{
+    font-size:40px;
+    font-weight: normal !important;
+     margin-top:100px;
+  }
+  .menu{
+    font-size:12px;
+
+  }
+  .right-items{
+    margin-right:120px;
+  }
+  .text-sub-title p{
+    padding-top:20px;
+    line-height: 25px;
+    font-size:14px;
+  }
+.image-3 img{
+  width:100%;
+}
+.image-4 img,.image-5 img,.image-6 img{
+  width:100%;
+}
+  .main-3{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .text-title3 {
+  font-size:40px;
+   margin-top:100px;
+  
+  }
+  .sub-3-1{
+    padding-top:20px;
+    padding-bottom:20px;
+    line-height: 25px;
+
+  }
+  .sub-3-2{
+    line-height: 25px;
+
+  }
+
+  .main-4{
+    display: flex;
+    margin-top:100px;
+    justify-content: space-evenly;
+
+  }
+
+  .text-title4 {
+    font-size:40px;
+     margin-top:100px;
+
+  }
+  .sub-title4 p{
+    padding-top:20px;
+    line-height: 25px;
+    font-size:14px;
+  }
+
+  .main-5{
+   display: flex;
+   justify-content: space-evenly;
+  }
+  .text-title5 {
+    font-size:40px;
+     margin-top:100px;
+
+  }
+  .sub-title5{
+    padding-top:20px;
+    padding-bottom:20px;
+    line-height: 25px;
+
+  }
+  .main-6{
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+  .text-title6{ 
+    font-size:40px;
+    margin-top:40px;
+
+
+  }
+  .sub-title6{
+    padding-top:20px;
+    line-height: 25px;
+
+  }
+
+  .top-line1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottom-line2{
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+    
+  }
+
+  .main-7{
+    margin-top:100px;
+
+  }
+
+  .t-title{
+    padding-bottom:10px;
+    padding-top:20px;
+
+  }
+  .t-sub-title p{
+    font-size:13px;
+    line-height: 20px;
+  
+  }
+
+  .t1{
+    margin-left:20px;
+    margin-right:20px;
+    
+  }
+  .t-image img{
+    width:80%;
+  }
+
+  @media screen and (max-width:900px){
+    .banner-items img{
+      display: none;
+    }
+    .main-2{
+      flex-direction:column-reverse;
+      align-items: center;
+      justify-content: center;
+      margin-left:80px;
+
+      
+    }
+    .right-items{
+      display: none;
+    }
+    .text-box{
+      
+    }
+    .text-title{
+      
+      
+    }
+    .text-sub-title{
+      
+      padding-bottom:100px;
+     
+
+    }
+    .logo-items img{
+      display: none;
+
+    }
+    .main-3{
+      flex-direction: column;
+      justify-content: center;
+      margin-left:80px;
+
+      
+      
+    }
+    .text-box3{
+    
+    }
+   
+    .header{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .menu{
+      font-size:20px;
+     
+
+    }
+    .left{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .main-4{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left:50px;
+      
+
+    }
+    .main-5{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left:50px;
+
+    }
+    .main-6{
+      flex-direction: column-reverse;
+      margin-left:100px;
+      text-align: center;
+
+    }
+    .top-line1{
+      flex-direction: column;
+    }
+    .bottom-line2{
+      flex-direction: column;
+    }
+    .t-title{
+      font-size:25px;
+      text-align: center;
+    }
+    .t-image{
+      text-align: center;
+    }
+    .t-sub-title{
+      font-size:20px;
+      text-align: center;
+      padding-bottom:20px;
+      
+
+    }
+  }
