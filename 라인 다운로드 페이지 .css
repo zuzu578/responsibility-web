@@ -1,0 +1,145 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+
+}
+.logo-items {
+ margin-left:40px;
+
+}
+.header-container{
+  display: flex;
+  align-items: center;
+  
+  padding-top:20px;
+  padding-bottom:15px;
+  
+
+
+}
+.header-wrapper{
+  border-bottom:3px solid #3b3b3b;
+}
+
+.menu-items{
+  margin-left:20px;
+  font-size:12px;
+
+}
+.download-mobile{
+  display: flex;
+  justify-content:center;
+}
+.title-box1{
+  text-align: center;
+}.image-box1{
+  text-align: center;
+}
+.ios{
+  margin-left:5px;
+
+}
+.download-mobile{
+  margin-top:30px;
+
+}
+.content-box1{
+width: 53%;
+
+}
+
+.os-image{
+  display: flex;
+  justify-content: center;
+  padding-top:50px;
+
+
+}
+
+.main{
+  padding-top:50px;
+  display: flex;
+
+}
+.content-title{
+  text-align: center;
+}
+.pc-image{
+  text-align: center;
+}
+.mac-appstore{
+  padding-top:30px;
+  text-align: center;
+
+}
+.content-title{
+  padding-bottom:40px;
+
+}
+.title-box1{
+  padding-bottom:40px;
+
+}
+
+.ios-icon{
+  padding-left:40px;
+
+}
+
+.content-box2{
+ 
+
+}
+
+.icons{
+  display: flex;
+  padding-top:50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.window-store{
+  padding-left:40px;
+
+}
+
+@media screen and (max-width:850px){
+  .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .os-image{
+    padding-top:20px;
+    padding-bottom:20px;
+
+  }
+  .menu-items{
+    display: none;
+  }
+  .logo-items{
+    text-align: center;
+    margin:0 auto;
+  }
+  .content-box1{
+    margin-left:20px;
+    
+  }
+  
+  .logo-items img{
+    display: none;
+  }
+  .content-box2{
+    margin:0 auto;
+  }
+.download-mobile{
+  flex-direction: column;
+}
+.android img{
+  width:201px;
+}
+  .header-container{
+    
+  }
+}
