@@ -1,0 +1,231 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://taiko.namco-ch.net/taiko/images/common/bg_stit_02.png");
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+}
+.banner-1{
+
+  position: relative;
+}
+.banner-background img{
+  width:100%;
+  position: relative;
+ 
+}
+
+.banner-contents-image img{
+  position: absolute;
+  bottom:1%;
+  width:100%;
+ 
+}
+.line-1{
+  display: flex;
+  align-items: center;
+ justify-content: space-evenly;
+}
+.line-2{
+  display: flex;
+   align-items: center;
+  justify-content: space-evenly;
+}
+.donchang-image{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.text-para{
+  font-size:14px;
+}
+.line-3{
+  display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+}
+.title{
+  background-image:url("https://taiko.namco-ch.net/taiko/images/common/bg_stit_02.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  border-left:3px solid #f5b7cc;
+  border-right:3px solid #f4f477;
+  border-top:3px solid #c6edf6;
+  border-bottom:3px solid #b5ecd6;
+  
+  border-radius: 40px;
+  
+  margin-top:50px;
+  padding:10px;
+}
+.bana-text-box1{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top:40px;
+}
+.text1{
+  font-size:18px;
+}
+.title2{
+  text-align: center;
+  font-size:30px;
+  color:#aaaaaa;
+  padding-top:40px;
+  padding-bottom:40px;
+  font-weight: bold;
+}
+.image-box1 img{
+  width:100%;
+}
+
+.items{
+  border:2px solid #f5f5f5;
+ margin-bottom:20px;
+}
+.character1{
+
+color:#148267;
+font-weight: bold;
+text-align: center;
+padding-top:20px;
+font-size:19px;
+}
+.text-para1{
+  background:#148267;
+  border-radius: 5px;
+  padding:5px;
+  color:white;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.under-infor{
+  font-size:10px;
+  text-align: center;
+}
+
+.character2{
+  text-align: center;
+  padding-top:20px;
+  font-size:19px;
+  color:#130c41;
+  font-weight: bold;
+}
+.under-infor{
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.text-para2{
+  background:#130c41;
+  border-radius: 5px;
+  color:white;
+  margin-left:10px;
+  margin-right:10px;
+  padding:5px;
+}
+.character3{
+  text-align: center;
+  font-weight: bold;
+  color:#e78f25;
+  padding-top:20px;
+  font-size:19px;
+}
+.text-para4,.text-para5,.text-para6,.text-para7,.text-para8,.text-para9,.text-para10,.text-para11,.text-para12{
+  border-radius: 5px;
+  color:white;
+  background:paleturquoise;
+  margin-left:10px;
+  margin-right:10px;
+  padding:5px;
+}
+.character3 ,.character4 ,.character5, .character6 ,.character7, .character8 ,.character9 ,.character10, .character11 ,.character12{
+  text-align: center;
+  font-weight: bold;
+  padding-top:20px;
+  font-size:19px;
+}
+.text-para3{
+  text-align: center;
+  background:#e78f25;
+  border-radius: 5px;
+  color:white;
+  margin-left:10px;
+  margin-right:10px;
+  padding:5px;
+
+}
+
+.image img{
+  width:100%;
+
+}
+
+.image-3 img{
+  width: 85%;
+ 
+}
+.title-3-box{
+  text-align: center;
+}
+.title-3-sub{
+  text-align: center;
+}
+.main-3{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ margin-top:100px;
+}
+
+.title-3-box{
+  border-left:2px solid #fcb3cc;
+  border-top: 2px solid #b5ebe4;
+  border-right:2px solid #f5f66a;
+  border-bottom:2px solid #a1f7d0;
+  border-radius: 60px;
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-weight: bold;
+  color:gray;
+  background:url("https://taiko.namco-ch.net/taiko/images/common/bg_stit_02.png");
+  background-repeat: no-repeat;}
+
+.title-3-sub{
+  padding-top:40px;
+  padding-bottom:40px;
+  font-size:26px;
+  color:gray;
+  font-weight: bold;
+}
+
+.footer-image img{
+  width:100%;
+}
+@media screen and (max-width:924px){
+.bana-text-box1{
+  flex-direction: column-reverse;
+}
+.text1{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.line-1{
+ flex-direction: column;
+}
+.line-2{
+  flex-direction: column;
+}
+.line-3{
+  flex-direction: column;
+}
+  
+}
