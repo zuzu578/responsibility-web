@@ -1,0 +1,130 @@
+body {
+    background-image: url(https://taiko-ch.net/images/common/bg.jpg);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.items2 img{
+  width:100%;
+}
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://taiko-ch.net/images/common/bg_header.png);
+    width: 100%;
+}
+.header-items img {
+    width: 100%;
+}
+.nav-container {
+    display: flex;
+    background: #ffd71d;
+    justify-content: space-evenly;
+    padding-left: 70px;
+}
+.nav-items img {
+    width: 60%;
+}
+.main1-image-box {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.icon-items img {
+    width: 50%;
+}
+.header-icon-items {
+    display: flex;
+}
+
+.image-1 img {
+    width: 85%;
+}
+
+.main2 {
+    margin-top: 10px;
+}
+
+.items2 {
+    margin-bottom: 10px;
+}
+.main2-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3-line1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+
+
+.main3-line1 img {
+    width: 40%;
+}
+
+.main3-line2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.main3-line2 img {
+    width: 40%;
+}
+
+.main4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.taiko-blog {
+    border: 8px solid #ffd71d;
+    padding: 20px;
+    background: white;
+    
+}
+
+.taiko {
+    display: flex;
+    align-items: center;
+}
+
+.video-taiko-image img{
+  width: 100%;
+
+}
+
+@media screen and (max-width:700px){
+  .header-icon-items{
+
+  display: none;
+  }
+  .nav-container{
+   display: none;
+  }
+  .main1-image-box{
+    flex-direction: column;
+    
+  }
+  .main3-line1{
+   flex-direction: column;
+   align-items: center;
+  }
+  .main3-line2{
+   flex-direction: column;
+    align-items: center;
+  }
+  .main4{
+    flex-direction: column;
+  }
+}
