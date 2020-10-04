@@ -1,0 +1,220 @@
+body{
+
+background:url("https://switch.taiko-ch.net/images/common/bg_maincol.jpg");
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.main-background img{
+  width:100%;
+ 
+  
+
+}
+.main-menu-box{
+  display: flex;
+  position: absolute;
+  top:2%;
+  text-align: center;
+  
+
+
+}
+
+.pkg-items img{
+  width:50%;
+}
+.left-menu{
+
+      background: rgba(0, 0, 0, 0.2);
+}
+   
+.switch-logo img{
+  width:30%;
+}
+.taiko-logo img{
+  width:80%;
+}
+.right-image img{
+  width:40%;
+}
+.center-logo img{
+  width:100%;
+}
+
+.main-1{
+  position: relative;
+}
+.nav-container{
+  display: flex;
+
+ justify-content: center;
+  padding-top:20px;
+  padding-bottom:30px;
+  
+}
+.nav-container img{
+  width:40%;
+}
+.cloud img{
+  width:90%;
+}
+.cloud-items{
+  display: flex;
+
+}
+
+.image img{
+  width: 100%;
+}
+
+.text-box{
+  
+  border:1px solid  #990100;
+}
+.title{
+  text-align: center;
+  background: #990100;
+  color:white;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.sub{
+  text-align: center;
+  background: white;
+  color:#990100;
+}
+
+.main-4{
+  display: flex;
+}
+
+.text-box{
+  margin-left:5px;
+  margin-right:5px;
+
+}
+.logo-items2 img{
+  width:100%;
+  
+}
+.under-contents{
+  background:url("https://switch.taiko-ch.net/images/top/bg_spec.jpg");
+}
+
+.text-box2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color:white;
+}
+
+.footer-items2{
+  color:white;
+
+  background:black;
+}
+
+.footer-text{
+  display: flex;
+  justify-content: space-between;
+  font-size:12px;
+  color: #cccccc;
+}
+.image2 img{
+  width:50%;
+}
+.sns-icons{
+  display: flex;
+}
+
+.image-box-taiko{
+  display: flex;
+}
+.footer-image-items2{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:40px;
+
+}
+.under-contents{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.taiko-image-items{
+  padding-right:20px;
+}
+.footer-text{
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.taiko-image-items img{
+  width:100%;
+}
+
+.taiko-line1{
+  display: flex;
+  justify-content: center;
+}
+.taiko-line2{
+  display: flex;
+  justify-content: center;
+}
+.taiko-3-image img{
+  width:100%;
+}
+
+.taiko-2-image img{
+    width:100%;
+}
+
+.taiko-1-image img{
+    width:100%;
+}
+.taiko-line3{
+  display: flex;
+  justify-content: center;
+}
+
+.taiko-box-image{
+  display: none;
+}
+@media screen and (max-width:715px){
+  body{
+    margin:0 auto;
+  }
+  .taiko-logo{
+    display: none;
+  }
+  .pkg-items{
+    display: none;
+  }
+  .switch-logo{
+    display: none;
+  }
+  .right-image-menu{
+    display: none;
+  }
+  .center-logo {
+    padding-left:50px;
+  }
+  .nav-container{display: none;
+    
+  }
+  .cloud-items{
+    flex-direction: column;
+    
+  }
+  .main-4{
+    flex-direction: column;
+  }
+  .taiko-box-image{
+    display: block;
+  }
+}
