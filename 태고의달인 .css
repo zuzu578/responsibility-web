@@ -1,0 +1,238 @@
+body{
+  width:100%;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.logo-items img{
+
+  width:70%;
+
+}
+
+.nav{
+  padding-right:40px;
+
+}
+.nav-container{
+  display: flex;
+  align-items: center;
+  font-size:14px;
+
+  
+}
+.header{
+  padding-top:20px;
+  padding-bottom:20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-items1{
+  display: flex;
+  align-items: center;
+}
+
+.nav-items2{
+display: flex;
+align-items: center;
+}
+.nav-items3{
+  display: flex;
+  align-items: center;
+}
+
+.card1{
+display: flex;
+align-items: center;
+}
+.card2{
+  display: flex;
+  align-items: center;
+}
+.main-contents{
+  width:100%;
+}
+.main1 img{
+text-align: center;
+
+
+width : 100%;
+	
+	
+}
+
+
+
+.main2{
+  background:url("https://taiko.namco-ch.net/taiko/images/top/songsheet/bg_songsheet_pc.jpg");
+  margin-top:10px;
+
+}
+
+.song-image-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image1{
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.image1 img{
+text-align: center;
+width: 85%;
+border:2px solid white;
+
+}
+
+.tohou-images{
+      display: flex;
+      width:100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0 0;
+}
+
+
+.t-image img {
+ width:100%;
+}
+
+
+.main4{
+  background:url("https://taiko.namco-ch.net/taiko/images/top/bg_catch_pc.png"),url("https://taiko.namco-ch.net/taiko/images/top/bg_about_pc.png");
+  background-position: bottom center;
+  background-repeat:no-repeat;
+    background-size: 100%;
+    padding: 7% 0 10%;
+    text-align: center;
+   
+}
+
+.taiko{
+  display: none;
+}
+
+.text-title{
+  font-size:2vw;
+  padding-top:30px;
+  padding-bottom:30px;
+
+}
+.song-catch {
+  padding-bottom:20px;
+
+}
+.taiko img {
+  width:  50%;
+}
+.song-catch img{
+  width:50%;
+}
+.title-images img {
+  width:50%;
+}
+.button-images img {
+  width: 50%;
+}
+
+.main5{
+  background: url("https://taiko.namco-ch.net/taiko/images/top/bg_movie.png");
+  background-repeat: no-repeat;
+}
+
+#movie{
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+
+.side-images{
+  display: flex;
+  
+}
+.side-images img{
+  width:100%;
+}
+
+.side{
+  padding:20px;
+  
+
+}
+
+.side-images{
+  margin-left:100px;
+  margin-right:100px;
+
+
+}
+.main6{
+
+  background:url("https://taiko.namco-ch.net/taiko/images/common/bg_main_sp.png"),url("https://taiko.namco-ch.net/taiko/images/top/bg_movie.png");
+  
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+
+@media screen and (max-width:900px) {
+.header{
+  flex-direction: column;
+}
+.logo-items{
+  text-align: center;
+}
+  .nav-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+  }
+
+  .nav-items1{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+
+    text-align: center;
+    
+  }
+  .nav{
+    padding-left:20px;
+    font-size:20px;
+    padding-bottom:20px;
+    
+  }
+
+  .song-image-box{
+    flex-direction: column;
+    padding-top:10px;
+    padding-bottom:10px;
+
+  }
+
+  .tohou-images{
+    flex-direction: column;
+  }
+
+  .taiko{
+    display: block;
+  }
+  .side-images{
+    flex-direction: column;
+  }
+}
